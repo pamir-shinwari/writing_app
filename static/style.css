@@ -1,0 +1,47 @@
+body{
+margin:0;
+
+
+}
+
+.btn{
+color: black;
+background-color:lightblue;
+text-decoration: none;
+border: 1px solid;
+font-size: 25px;
+padding: 5px;
+border-radius: 50%;
+}
+
+.top-navbar{
+padding-left: 20px;
+background-color:black;
+padding: 20px 20px 20px 20px;
+position:sticky;
+top:0;
+Z-index:1;
+display:flex;
+justify-content:space-between
+}
+
+footer{
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 10px 0;
+font-size: 14px;
+
+}
+
+#textarea{
+width:90%;
+height:100vh;
+font-size:30px;
+padding:20px;
+}
+
+.textarea{
+display: flex;
+justify-content: center;
+}
