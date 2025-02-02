@@ -23,22 +23,11 @@
 </div>
 
 
-<script type="text/javascript">
-    let timeout;
-    myTextarea = document.querySelector('#textarea');
-    function checkTimeout(){
-    clearTimeout(timeout)
-    timeout = setTimeout(function(){
-    myTextarea.value = ""
-    }, 3000)
-    }
-   myTextarea.addEventListener('keyup', checkTimeout)
-</script>
 
 
  <footer>
     <p>&copy; <span >{{year}}</span> Pshinwari. All rights reserved.</p>
  </footer>
-
+<script src="./static/script.js"></script>
 </body>
 </html>
